@@ -1,0 +1,12 @@
+:CurrentTime	vim-base-plugin.txt	/*:CurrentTime*
+:HelloWorld	vim-base-plugin.txt	/*:HelloWorld*
+:VimVersion	vim-base-plugin.txt	/*:VimVersion*
+<Leader>sct	vim-base-plugin.txt	/*<Leader>sct*
+<Leader>svh	vim-base-plugin.txt	/*<Leader>svh*
+<Leader>svv	vim-base-plugin.txt	/*<Leader>svv*
+hello-world	vim-base-plugin.txt	/*hello-world*
+hello-world-commands	vim-base-plugin.txt	/*hello-world-commands*
+vim-base-plugin.txt	vim-base-plugin.txt	/*vim-base-plugin.txt*
+vim-version-display	vim-base-plugin.txt	/*vim-version-display*
+vim-version-display-commands	vim-base-plugin.txt	/*vim-version-display-commands*
+vim-version-display-mappings	vim-base-plugin.txt	/*vim-version-display-mappings*

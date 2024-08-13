@@ -1,0 +1,49 @@
+*vim-base-plugin.txt*  A base vim function plugin
+
+INTRODUCTION                                    *hello-world*
+
+This plugin provides a simple Hello World functionality.
+
+COMMANDS                                        *hello-world-commands*
+
+:HelloWorld                                     *:HelloWorld*
+    Prints "Hello, Vim world!" to the command line.
+
+
+<Leader>svh                                      *<Leader>svh*
+    Quickly display 'Hello World' (in normal mode).
+
+----
+
+ A plugin to display Vim version and current time
+
+INTRODUCTION                                    *vim-version-display*
+
+This plugin provides simple ways to display the current Vim version and system time.
+
+COMMANDS                                        *vim-version-display-commands*
+
+:VimVersion                                     *:VimVersion*
+    Displays the current Vim version in the command line.
+
+:CurrentTime                                    *:CurrentTime*
+    Displays the current system time in the command line.
+
+MAPPINGS                                        *vim-version-display-mappings*
+
+<Leader>svv                                      *<Leader>svv*
+    Quickly display the Vim version (in normal mode).
+
+<Leader>sct                                      *<Leader>sct*
+    Quickly display the current system time (in normal mode).
+
+
+-----
+
+Note: This plugin uses <Leader> in its mappings. By default, <Leader> is set to
+backslash (\) in Vim. If you have customized your <Leader> key, the actual key
+combination to trigger the mapping will be different. For example, if you have
+set your <Leader> to space, you would press "Space+vv" instead of "\vv" to
+display the Vim version.
+
+ vim:tw=78:ts=8:ft=help:norl:
